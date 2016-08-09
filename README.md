@@ -58,7 +58,8 @@ published: true
 ### 추가정보
 
 위의 내용은 github에 개인 블로그를 생성/운영할 때에도 활용할 수 있습니다.   
-> 1개의 계정 당 1개의 github blog를 가질 수 있습니다. 
+> 1개의 계정 당 1개의 github blog를 가질 수 있습니다.  
+
 자세한 가이드는 아래 링크를 참고해주세요.
 
 * [GitHub Pages](https://pages.github.com/)

@@ -2,7 +2,8 @@
 
 http://woowabros.github.io/
 
-### 개발자 블로그에 컨텐츠 작성/배포하기에 앞서
+
+## 환경설정
 
 개발자 블로그는 마크다운으로 작성하며, 작성된 문서는 jekyll을 통해 정적 블로그(웹사이트)로 만들어집니다.  
 따라서 컨텐츠의 작성/배포에는 jekyll의 설치가 선행되어야 합니다.  
@@ -14,6 +15,21 @@ http://woowabros.github.io/
 
 ```
 $ gem install jekyll
+```
+
+
+## 작성하기
+
+### 로컬 서버 
+
+jekyll은 로컬 브라우저에서의 미리보기를 지원하며, 서버를 띄운 동안 별도로 빌드하지 않아도 자동으로 변경사항을 반영합니다.
+
+```
+$ jekyll serve 
+# http://localhost:4000/ 에서 로컬에서 컨텐츠를 확인
+
+$ jekyll serve --host=0.0.0.0
+# http:/0.0.0.0:4000  => 특정 IP에서 컨텐츠 확인
 ```
 
 ### 저자 등록
@@ -49,13 +65,16 @@ published: true
 ---
 ```
 
-#### FAQ
+
+## 추가정보
+
+### FAQ
 * date를 통해 글을 발행할 시점을 정할 수 있습니다.  
-* 과거 시점으로 저장하면 published 속성이 true여도 글이 노출되지 않습니다.  
+* 미래 시점으로 저장하면 published 속성이 true여도 글이 노출되지 않습니다.  
 * 글 작성 시 줄바꿈은 문장 끝에 두 개의 스페이스를 넣으면 됩니다.  
 * 첨부할 이미지가 있는 경우 'img' 경로에 추가합니다. 
 
-### 추가정보
+### 개인 블로그에서의 활용
 
 위의 내용은 github에 개인 블로그를 생성/운영할 때에도 활용할 수 있습니다.   
 > 1개의 계정 당 1개의 github blog를 가질 수 있습니다.  
@@ -64,5 +83,3 @@ published: true
 
 * [GitHub Pages](https://pages.github.com/)
 * [Jekyll Quick-start guide](https://jekyllrb.com/docs/quickstart/)
-
-

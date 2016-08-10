@@ -25,12 +25,12 @@ $ gem install jekyll
 
 jekyll은 로컬 브라우저에서의 미리보기를 지원하며, 서버를 띄운 동안 별도로 빌드하지 않아도 자동으로 변경사항을 반영합니다.
 
-* http://localhost:4000/ 에서 로컬에서 컨텐츠를 확인
+*http://localhost:4000/ 에서 로컬에서 컨텐츠를 확인*
 ```
 $ jekyll serve 
 ```
 
-*http:/0.0.0.0:4000  => 특정 IP에서 컨텐츠 확인
+*http:/0.0.0.0:4000  => 특정 IP에서 컨텐츠 확인*
 ```
 $ jekyll serve --host=0.0.0.0
 ```
